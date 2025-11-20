@@ -1,0 +1,68 @@
+body {
+    font-size: 100px;
+    color: blueviolet;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+h1 {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    box-shadow: inset;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 255, 68);
+    padding: 15px;
+    border-radius: 20px;
+    opacity: calc(80%);
+}
+
+p {
+    font-size: 100px;
+    color: brown;
+    text-align: center;
+    margin: 20px;
+}
+
+.section {
+    padding: 16px;
+    padding: 16px 16px;
+    padding: 16px 16px 16px 16px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .gallery {
+        flex-direction: row;
+    }
+    .gallery figure {
+        width: 30%;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
